@@ -1,10 +1,10 @@
 import React from 'react'
 
-function SectionWithTitle({title, children}) {
+function SectionWithTitle({ title, children }) {
   return (
-    <section className="w-full p-5 bg-amber-100 block">
-        <h2 className='mb-4 text-2xl font-bold'>{title}</h2>
-        {children}
+    <section className="block w-full p-5 bg-amber-100">
+      <h2 className='mb-4 text-2xl font-bold'>{title}</h2>
+      {children}
     </section>
   )
 }
